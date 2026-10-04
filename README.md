@@ -42,3 +42,11 @@ Dedicated, IIX/IX tetap menggunakan penawaran khusus karena tarifnya belum diber
 ### Ilustrasi
 
 Dibuat dengan imagegen bawaan. Prompt: “Premium ISP B2B landing page illustration: futuristic 3D isometric business district, office towers and data-center building connected by luminous fiber paths to a central translucent cyan network hub with an orbital halo. Clean polished glass and metal, dark navy #061b35, electric blue #0074b9, cyan #1bb0da, restrained yellow #ffd20a accents. Generous dark margins; no text, logos, people, or watermark.”
+
+### Kartu produk dengan foto
+
+Susunan kartu mengikuti referensi pengguna: foto aktivitas bisnis, label kapasitas, nama paket, harga, dua tombol konsultasi, serta rincian manfaat yang dapat dibuka dan ditutup. Harga simulasi sebelumnya tetap digunakan.
+
+`assets/business-pricing.webp` dibuat menggunakan imagegen bawaan. Prompt: “Wide panoramic 3:1 corporate photography for Indonesian B2B internet pricing cards. Three independent focus groups: small-business owner at a laptop on the left, two colleagues collaborating at a meeting table in the center, two professionals at a workstation on the right. Modern bright East Java office, blue and cyan accents, subtle yellow details, natural skin and hands, soft daylight. Keep faces and laptops near the middle vertical area. No text, brands, watermarks, gaming or nightclub.”
+
+Satu gambar WebP digunakan dengan tiga posisi crop CSS untuk mengurangi permintaan jaringan. Foto merupakan ilustrasi AI, bukan dokumentasi pelanggan atau staf Satelit. Animasi tiap bagian dan kartu mendukung reduced motion. Versi aset diperbarui agar cache browser mengambil desain terbaru.
