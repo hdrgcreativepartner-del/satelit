@@ -33,3 +33,43 @@ a,button{transition:color .25s,background-color .25s,border-color .25s,box-shado
 @media(max-width:760px){.price-grid{gap:25px}.plan-photo{height:220px}.plan-body{padding:25px 24px 20px}.photo-card .plan-description{min-height:0}.photo-card .price strong{font-size:29px}.photo-card h3{font-size:21px}.plan-photo{background-size:auto,300% auto}.plan-features li{font-size:12px}.photo-speed{bottom:24px;left:22px}.photo-speed>strong{font-size:34px}}
 @media(max-width:420px){.plan-photo{height:185px}.photo-card .price strong{font-size:27px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.reveal,.reveal.is-visible{opacity:1;transform:none}}
+
+/* Readable typography and a balanced pricing hierarchy */
+body{font-size:16px;line-height:1.6}
+nav{font-size:15px;gap:22px}
+.eyebrow,.card-label,.contact-label,.plan-label{font-size:12px;letter-spacing:1.5px;line-height:1.6}
+.hero-description{font-size:18px;line-height:1.8;max-width:510px;color:#b8cddd}
+.button,.text-link,.service-card>a{font-size:15px}
+.hero-location{font-size:14px}.network-tag{font-size:15px}.network-tag small{font-size:12px}.orbit-caption{font-size:10px;letter-spacing:1px}
+.hero-bottom{font-size:11px;letter-spacing:1px}.service-strip>.container{font-size:12px;letter-spacing:1px}
+.about-content p,.section-heading>p,.service-card p,.contact-intro,.dedicated-offer p,.faq-grid>div>p:last-child,.commitment-grid>div>p:last-child{font-size:17px;line-height:1.8}
+.section-heading>p{max-width:360px}.about-content .lead{font-size:23px}.about-signature{font-size:14px}
+.industry-grid h3,.commitment-list h3,.contact-grid h3{font-size:20px;line-height:1.4}
+.industry-grid p,.commitment-list p,.contact-grid p,.faq-list details>p{font-size:16px;line-height:1.8}
+.card-number,.industry-grid>div>span,.commitment-list article>span{font-size:13px}
+.contact-note,.footer-main p,.footer-main>a:last-child,.footer-bottom{font-size:13px;line-height:1.8}
+.pricing-switch button{font-size:15px;padding:14px 22px}.draft-pill{font-size:11px;letter-spacing:.7px}
+.pricing-context{font-size:15px;max-width:940px;line-height:1.8;margin-bottom:32px}
+.price-grid{gap:24px;align-items:stretch}.price-card.photo-card{display:flex;flex-direction:column;box-shadow:0 8px 28px #061b3508}
+.price-card.photo-card.highlighted{box-shadow:0 8px 28px #0074b918}
+.plan-photo{height:205px;flex-shrink:0}.photo-speed{left:22px;bottom:20px;padding:10px 13px}
+.photo-speed>small{font-size:11px;letter-spacing:0}.photo-speed>strong{font-size:34px}.photo-speed>strong>span{font-size:15px}
+.photo-brand{font-size:9px;letter-spacing:.8px}.photo-recommendation{font-size:10px;letter-spacing:.4px;padding:9px 12px}
+.plan-body{padding:27px 24px 24px;text-align:left;display:flex;flex-direction:column;flex:1}
+.photo-card h3{font-size:25px;letter-spacing:-.5px;line-height:1.25;margin:0 0 12px;color:var(--ink)}
+.photo-card .plan-description{font-size:16px;line-height:1.65;min-height:80px;margin:0 0 22px}
+.photo-card .price{border-top:1px solid var(--line);padding-top:20px;margin-top:auto}
+.photo-card .price small{font-size:13px;margin-bottom:8px}
+.price-line{justify-content:flex-start;gap:7px}.photo-card .price strong{font-size:32px;letter-spacing:-1px;line-height:1.25}.price-line>span{font-size:14px}
+.plan-tax{font-size:13px;line-height:1.6;margin:9px 0 22px;color:var(--muted)}
+.photo-card .plan-button{font-size:15px;min-height:50px;padding:13px 16px;justify-content:space-between;border-radius:6px}
+.secondary-plan{border-color:transparent;background:#f4f8fb}
+.plan-features{background:#f6f9fc;flex-shrink:0}.plan-features summary{font-size:15px;padding:20px 24px;min-height:64px;color:var(--ink)}
+.plan-features ul{padding:0 24px 4px}.plan-features li{font-size:14px;line-height:1.65;margin-bottom:13px;padding-left:23px}
+.plan-features>p{font-size:12px;line-height:1.7;padding:0 24px 22px}
+.pricing-footnote,.source-details{font-size:14px;line-height:1.8}.pricing-footnote{max-width:980px;margin-top:28px}
+.offer-tags>span,.offer-action>span{font-size:12px}.faq-list summary{font-size:17px;line-height:1.6}
+@media(max-width:1100px){nav{font-size:14px;gap:16px}.nav-cta{padding:12px}.nav-cta span{margin-left:10px}.brand{width:180px}.plan-body{padding:24px 20px}.photo-card h3{font-size:23px}.photo-card .price strong{font-size:28px}.photo-card .plan-description{min-height:106px}.plan-features summary,.plan-features ul,.plan-features>p{padding-left:20px;padding-right:20px}}
+@media(max-width:980px) and (min-width:761px){.price-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.photo-card:last-child{grid-column:1/-1;max-width:calc((100% - 24px)/2);width:100%;justify-self:center}.photo-card .plan-description{min-height:80px}.plan-photo{height:210px}nav{font-size:13px;gap:12px}.brand{width:150px}.hero-description{font-size:17px}.hero-actions{flex-wrap:wrap}.section-heading{gap:30px}.network-tag{font-size:13px}}
+@media(max-width:760px){nav{font-size:16px}.brand{width:177px}.hero-description{font-size:17px}.hero-actions{gap:20px;flex-wrap:wrap}.button,.text-link{font-size:15px}.eyebrow{font-size:11px;letter-spacing:1.2px}.hero-bottom{font-size:10px}.service-strip>.container{font-size:10px;letter-spacing:.3px;gap:10px}.section-heading>p{max-width:100%}.about-content .lead{font-size:21px}.industry-grid h3{font-size:18px}.pricing-switch button{font-size:14px;padding:13px 10px}.price-grid{grid-template-columns:1fr;gap:28px}.photo-card:last-child{grid-column:auto;max-width:none}.plan-photo{height:235px}.plan-body{padding:26px 24px}.photo-card h3{font-size:25px}.photo-card .plan-description{min-height:0;margin-bottom:24px}.photo-card .price strong{font-size:34px}.plan-features summary,.plan-features ul,.plan-features>p{padding-left:24px;padding-right:24px}.plan-features li{font-size:15px}.contact-title h2{font-size:34px}.footer-bottom{flex-wrap:wrap;gap:8px}}
+@media(max-width:380px){.container{width:calc(100% - 32px)}.plan-photo{height:205px}.plan-body{padding:24px 20px}.photo-card .price strong{font-size:30px}.photo-brand{font-size:8px;right:12px}.photo-speed{left:18px}.hero-actions .button{font-size:15px}.text-link{font-size:14px}.service-strip>.container{font-size:9px}.contact-title h2{font-size:30px}.pricing-switch button{font-size:13px}}

@@ -50,3 +50,6 @@ Susunan kartu mengikuti referensi pengguna: foto aktivitas bisnis, label kapasit
 `assets/business-pricing.webp` dibuat menggunakan imagegen bawaan. Prompt: “Wide panoramic 3:1 corporate photography for Indonesian B2B internet pricing cards. Three independent focus groups: small-business owner at a laptop on the left, two colleagues collaborating at a meeting table in the center, two professionals at a workstation on the right. Modern bright East Java office, blue and cyan accents, subtle yellow details, natural skin and hands, soft daylight. Keep faces and laptops near the middle vertical area. No text, brands, watermarks, gaming or nightclub.”
 
 Satu gambar WebP digunakan dengan tiga posisi crop CSS untuk mengurangi permintaan jaringan. Foto merupakan ilustrasi AI, bukan dokumentasi pelanggan atau staf Satelit. Animasi tiap bagian dan kartu mendukung reduced motion. Versi aset diperbarui agar cache browser mengambil desain terbaru.
+
+### Typography refinement
+Body copy is now 16–18 px, with readable labels and supporting notes. Pricing uses left-aligned headings and prices, consistent spacing, aligned calls to action, and a two-column tablet layout before stacking on phones.
