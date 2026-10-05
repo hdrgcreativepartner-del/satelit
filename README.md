@@ -1,55 +1,15 @@
-# PT Satelit Global Media
+# SGMNET — Satelit Global Media
 
-Landing page statis untuk pengenalan brand, layanan internet dedicated, serta konektivitas IIX & IX. Warna mengikuti logo perusahaan: biru dan kuning, dipadukan navy dan putih.
+Static, responsive landing page for GitHub Pages. HTML/CSS/JavaScript, no build step.
 
-## Menjalankan lokal
+## Content source
+Aligned throughout with https://sgmnet.id/#service, viewed fully rendered on 5 October 2026. Includes brand background (established 4 June 2022), rural-connectivity mission, five internet packages, three hotspot packages, coverage, support, public contacts, customer-experience summaries and partner names.
 
-Jalankan `python3 -m http.server 8080` di direktori proyek, lalu buka `http://localhost:8080`.
+Internet: Hemat 10 Mbps Rp110.000; Home Lite 15 Mbps Rp125.000; Home Extra 20 Mbps Rp165.000; Family 50 Mbps Rp250.000; Premium 100 Mbps Rp500.000 per month. Hotspot: Hemat up to 20 Mbps Rp100.000; Seru up to 20 Mbps Rp150.000; Keluarga up to 25 Mbps Rp250.000. Taxes and installation require confirmation; no invented dedicated price or SLA. Previous MyRepublic simulations removed.
 
-## GitHub Pages
+Coverage: Sumber Kentangi and Sumber Klopo full; Tanggul partial. Every installation still requires address confirmation. Contacts: admin@sgmnet.id; 08113134688; Curahkalong Bangsalsari RT.001/036, Jember. Office Monday–Saturday 08:00–17:00 WIB; WhatsApp support 24/7.
 
-Di **Settings → Pages**, pilih **Deploy from a branch**, branch **main**, direktori **/ (root)**, lalu simpan. URL yang diharapkan: https://hdrgcreativepartner-del.github.io/satelit/ .
+Payment links to SGMNET's payment page. Speed test opens OpenSpeedTest externally; no simulated measurements. Testimonials are paraphrased summaries attributed to customers shown on SGMNET; partner names mirror the source.
 
-## Mengubah konten
-
-- `index.html`: seluruh teks, alamat, email, dan nomor kontak. Cari teks dalam tanda kurung siku untuk placeholder.
-- `styles.css`: warna, tata letak, dan tampilan responsif.
-- `script.js`: menu mobile dan tahun copyright.
-- `assets/logo.png`: logo perusahaan.
-
-Kontak belum ditautkan ke WhatsApp atau email karena data resmi belum diberikan. Semua tombol konsultasi menuju bagian kontak. Tidak ada form yang mengirim data, klaim SLA, harga, atau statistik pelanggan dummy.
-
-Tanpa framework, proses build, font eksternal, tracker, atau dependensi runtime. Seluruh aset menggunakan path relatif agar kompatibel dengan GitHub Pages pada subdirektori.
-
-## Pembaruan 5 Oktober 2026
-
-- `assets/logo.png` dioptimalkan dari logo original terbaru yang diunggah pengguna. File original dan seluruh variasi logo tetap dipertahankan.
-- `assets/logo-white.png` dioptimalkan dari variasi logo putih terbaru untuk footer gelap.
-- `assets/business-network.webp`: ilustrasi AI yang dikompresi untuk web; bukan foto fasilitas nyata perusahaan.
-- Transisi hero, reveal saat scroll, perpindahan panel harga, hover kartu, indikator posisi halaman, menu mobile, dan FAQ native. Preferensi `prefers-reduced-motion` dihormati. Tanpa JavaScript, semua konten/panel harga tetap terbaca.
-
-### Harga simulasi
-
-Rancangan broadband bisnis 50/100/300 Mbps: Rp700.000/Rp1.150.000/Rp2.500.000 per bulan. Nilai dibulatkan dari publikasi sales MyRepublic Rp703.741/Rp1.147.741/Rp2.479.741. Ini bukan tarif resmi Satelit atau verifikasi penawaran terkini MyRepublic di Jember. Publikasi sumber menyebut harga nett; simulasi Satelit sengaja menggunakan basis belum termasuk pajak/instalasi dan tidak menyalin benefit, SLA, atau kontrak sumber. Angka perlu diganti sesuai keputusan komersial perusahaan sebelum dijadikan penawaran resmi.
-
-Sumber ditinjau 5 Oktober 2026:
-
-- https://www.myrepublic.co.id/business — situs resmi, paket dan ketentuan umum; harga angka tidak tersedia dalam konten publik yang berhasil dibaca.
-- https://www.sales-myrepublic.com/dedicated-internet-myrepublic/ — situs pemasaran, publikasi nominal paket. Judul halaman memakai kata dedicated, tetapi detail paket menyebut speed up to. Angka tidak digunakan sebagai tarif dedicated Satelit.
-
-Dedicated, IIX/IX tetap menggunakan penawaran khusus karena tarifnya belum diberikan oleh pemilik bisnis.
-
-### Ilustrasi
-
-Dibuat dengan imagegen bawaan. Prompt: “Premium ISP B2B landing page illustration: futuristic 3D isometric business district, office towers and data-center building connected by luminous fiber paths to a central translucent cyan network hub with an orbital halo. Clean polished glass and metal, dark navy #061b35, electric blue #0074b9, cyan #1bb0da, restrained yellow #ffd20a accents. Generous dark margins; no text, logos, people, or watermark.”
-
-### Kartu produk dengan foto
-
-Susunan kartu mengikuti referensi pengguna: foto aktivitas bisnis, label kapasitas, nama paket, harga, dua tombol konsultasi, serta rincian manfaat yang dapat dibuka dan ditutup. Harga simulasi sebelumnya tetap digunakan.
-
-`assets/business-pricing.webp` dibuat menggunakan imagegen bawaan. Prompt: “Wide panoramic 3:1 corporate photography for Indonesian B2B internet pricing cards. Three independent focus groups: small-business owner at a laptop on the left, two colleagues collaborating at a meeting table in the center, two professionals at a workstation on the right. Modern bright East Java office, blue and cyan accents, subtle yellow details, natural skin and hands, soft daylight. Keep faces and laptops near the middle vertical area. No text, brands, watermarks, gaming or nightclub.”
-
-Satu gambar WebP digunakan dengan tiga posisi crop CSS untuk mengurangi permintaan jaringan. Foto merupakan ilustrasi AI, bukan dokumentasi pelanggan atau staf Satelit. Animasi tiap bagian dan kartu mendukung reduced motion. Versi aset diperbarui agar cache browser mengambil desain terbaru.
-
-### Typography refinement
-Body copy is now 16–18 px, with readable labels and supporting notes. Pricing uses left-aligned headings and prices, consistent spacing, aligned calls to action, and a two-column tablet layout before stacking on phones.
+## Assets and motion
+User-supplied logo retained. Optimized AI assets: business-network.webp and business-pricing.webp (illustration, not actual customers/staff). Shared photo crops reduce downloads. Readable body typography 16–18px. Scroll reveals, hover and pricing transitions honor reduced motion. CSS/JS query version 20261005-5.

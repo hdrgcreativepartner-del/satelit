@@ -56,7 +56,7 @@ if ('IntersectionObserver' in window && !reducedMotion.matches) {
       }
     });
   }, { threshold: 0.08 });
-  document.querySelectorAll('.about-grid > div, .section-heading, .service-card, .pricing-toolbar, .pricing-context, .photo-card, .industry-grid > div, .commitment-grid > div, .faq-grid > div, .contact-title, .contact-grid > article').forEach((element, index) => {
+  document.querySelectorAll('.about-grid > div, .section-heading, .service-card, .pricing-toolbar, .pricing-context, .photo-card, .industry-grid > div, .commitment-grid > div, .faq-grid > div, .contact-title, .contact-grid > article, .coverage-grid > article, .coverage-action, .testimonial-grid > article, .partner-list, .speed-box').forEach((element, index) => {
     element.classList.add('reveal');
     element.style.setProperty('--reveal-delay', `${(index % 3) * 65}ms`);
     revealObserver.observe(element);
